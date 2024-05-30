@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello(){
-        System.out.println("Hello World1...");
+        System.out.println("Hello World2...");
         return "ITCAST OK";
     }
 }
